@@ -14,4 +14,7 @@
 # Ignore Byebug command history file.
 .byebug_history
 
+.env
 database.yml
+/coverage/
+/spec/failures.txt

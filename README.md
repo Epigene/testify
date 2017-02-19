@@ -1,24 +1,14 @@
-# README
+# testify.host
+This app uses the `rspec-scaffold` gem to receive ruby code and build RSpec test scaffold for it.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+Consult Gemfile for Ruby version and gems used.  
+You will need to create local versions of `.env` and `database.yml` files. Consult respective \_example files.  
 
-* Ruby version
+## Use
 
-* System dependencies
+The app exposes an API endpoint at /api path.
+POSTing to it with needed form data will provide a JSON response. Consult specs for details.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The app itself uses this API to process requests made from the form at root path.  
